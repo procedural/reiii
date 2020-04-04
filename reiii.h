@@ -12,6 +12,6 @@ void iiiTriangle(unsigned id,
   float x2, float y2, float z2, float w2, float r2, float g2, float b2, float a2, float u2, float v2, unsigned pixelsIndex);
 void iiiEnd(unsigned id);
 void iiiSend(unsigned idsCount, const unsigned * ids);
-void iiiReadback(unsigned char * outPixels);
+void iiiReadback(unsigned w, unsigned h, unsigned char * outPixels);
 void iiiPresent(void);
 void iiiDestroyEverything(void);
