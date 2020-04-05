@@ -5,7 +5,7 @@ void iiiScreen(unsigned w, unsigned h, const void * displayOrHinstance, const vo
 void iiiBegin(unsigned id);
 void iiiPixels(unsigned id, unsigned pixelsIndex, unsigned w, unsigned h, unsigned clearPixels);
 void iiiPixel(unsigned id, unsigned x, unsigned y, unsigned char r, unsigned char g, unsigned char b, unsigned char a);
-void iiiTriangles(unsigned id, unsigned w, unsigned h, unsigned clearScreenColor, unsigned clearScreenDepth, float clearScreenDepthValue, unsigned colorPixelsMode, const void * pipelineAndSamplerState);
+void iiiTriangles(unsigned id, unsigned x, unsigned y, unsigned w, unsigned h, unsigned clearScreenColor, unsigned clearScreenDepth, float clearScreenDepthValue, unsigned colorPixelsMode, const void * pipelineAndSamplerState);
 void iiiTriangle(unsigned id,
   float x0, float y0, float z0, float w0, float r0, float g0, float b0, float a0, float u0, float v0, 
   float x1, float y1, float z1, float w1, float r1, float g1, float b1, float a1, float u1, float v1, 
