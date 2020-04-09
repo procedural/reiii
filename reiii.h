@@ -5,7 +5,7 @@ void iiiScreen(unsigned w, unsigned h, const void * displayOrHinstance, const vo
 void iiiBegin(unsigned id);
 void iiiPixels(unsigned id, unsigned pixelsIndex, unsigned w, unsigned h, unsigned isCube, unsigned clearPixels);
 void iiiPixel(unsigned id, unsigned x, unsigned y, unsigned z, unsigned char r, unsigned char g, unsigned char b, unsigned char a);
-void iiiTriangles(unsigned id, unsigned trianglesIndex, unsigned va1Enabled, unsigned va2Enabled, unsigned va3Enabled);
+void iiiTriangles(unsigned id, unsigned trianglesIndex, unsigned enabledVertexAttributesCount);
 void iiiTriangle(unsigned id,
   float v0a0x, float v0a0y, float v0a0z, float v0a0w, float v0a1x, float v0a1y, float v0a1z, float v0a1w, float v0a2x, float v0a2y, float v0a2z, float v0a2w, float v0a3x, float v0a3y, float v0a3z, float v0a3w,
   float v1a0x, float v1a0y, float v1a0z, float v1a0w, float v1a1x, float v1a1y, float v1a1z, float v1a1w, float v1a2x, float v1a2y, float v1a2z, float v1a2w, float v1a3x, float v1a3y, float v1a3z, float v1a3w,
