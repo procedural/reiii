@@ -9,7 +9,7 @@ void iiiTriangle(unsigned id,
   float v0a0x, float v0a0y, float v0a0z, float v0a0w, float v0a1x, float v0a1y, float v0a1z, float v0a1w, float v0a2x, float v0a2y, float v0a2z, float v0a2w, float v0a3x, float v0a3y, float v0a3z, float v0a3w,
   float v1a0x, float v1a0y, float v1a0z, float v1a0w, float v1a1x, float v1a1y, float v1a1z, float v1a1w, float v1a2x, float v1a2y, float v1a2z, float v1a2w, float v1a3x, float v1a3y, float v1a3z, float v1a3w,
   float v2a0x, float v2a0y, float v2a0z, float v2a0w, float v2a1x, float v2a1y, float v2a1z, float v2a1w, float v2a2x, float v2a2y, float v2a2z, float v2a2w, float v2a3x, float v2a3y, float v2a3z, float v2a3w);
-void iiiInstances(unsigned id, unsigned x, unsigned y, unsigned w, unsigned h, unsigned clearScreenColor, unsigned clearScreenDepth, float clearScreenDepthValue, const void * pipelineAndSamplersState, unsigned pixelsIndexesCount, const unsigned * pixelsIndexes, unsigned parametersBytesCount, const void * parameters);
+void iiiInstances(unsigned id, unsigned x, unsigned y, unsigned w, unsigned h, unsigned clearScreenColor, unsigned clearScreenDepth, float clearScreenDepthValue, const void * pipelineState, unsigned pixelsCount, const unsigned * pixelsIndexes, const void * pixelsSamplers, unsigned parametersBytesCount, const void * parameters);
 void iiiInstance(unsigned id, unsigned trianglesIndex, unsigned parametersOffset);
 void iiiSend(unsigned idsCount, const unsigned * ids);
 void iiiReadback(unsigned x, unsigned y, unsigned w, unsigned h, unsigned char * outPixels);
