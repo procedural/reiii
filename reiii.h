@@ -2,8 +2,8 @@
 
 void iiiHash(uint64_t hash);
 void iiiScreen(unsigned w, unsigned h, const void * displayOrHinstance, const void * windowOrHwnd);
-void iiiPixels(unsigned id, unsigned pixelsIndex, unsigned w, unsigned h, unsigned isCube, unsigned clearPixels);
-void iiiPixel(unsigned id, unsigned x, unsigned y, unsigned z, unsigned char r, unsigned char g, unsigned char b, unsigned char a);
+void iiiPixels(unsigned id, unsigned pixelsIndex, unsigned w, unsigned h, unsigned levelsCount, unsigned isCube, unsigned clearPixels);
+void iiiPixel(unsigned id, unsigned level, unsigned x, unsigned y, unsigned z, unsigned char r, unsigned char g, unsigned char b, unsigned char a);
 void iiiTriangles(unsigned id, unsigned trianglesIndex, unsigned enabledVertexAttributesCount);
 void iiiTriangle(unsigned id,
   float v0a0x, float v0a0y, float v0a0z, float v0a0w, float v0a1x, float v0a1y, float v0a1z, float v0a1w, float v0a2x, float v0a2y, float v0a2z, float v0a2w, float v0a3x, float v0a3y, float v0a3z, float v0a3w,
